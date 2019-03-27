@@ -8,6 +8,7 @@ public class LibraryTest {
     Book book2;
     Book book3;
     Library library;
+    Borrower borrower;
 
     @Before
     public void before() {
@@ -15,6 +16,7 @@ public class LibraryTest {
         book1 = new Book("Lord of Rings", "J. R. R. Tolkien", "fantasy");
         book2 = new Book("The Hunger Games", "Suzanne Collins", "fantasy");
         book3 = new Book("Twilight", "Stephanie Meyers", "fantasy");
+        borrower = new Borrower();
     }
     @Test
     public void canAddBooksToCollection() {
@@ -35,5 +37,12 @@ public class LibraryTest {
         this.library.removeBook();
         assertEquals(3, this.library.collectionSize());
     }
+    @Test
+    public void canAddReadBooks() {
+        borrower.addBook(book1);
+        this.library.addReadBook(borrower);
+        assertEquals(1, this.library.collectionSize());
+        assertEquals(0, this.borrower.privateCollectionSize());
 
+    }
 }

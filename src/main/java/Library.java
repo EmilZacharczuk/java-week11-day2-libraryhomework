@@ -22,4 +22,9 @@ public class Library {
         return this.collection.remove(0);
     }
 
+    public void addReadBook(Borrower borrower) {
+        Book readBook = borrower.removeBook();
+        this.collection.add(readBook);
+    }
+
 }
