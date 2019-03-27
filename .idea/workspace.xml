@@ -128,7 +128,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="12" />
     <option name="y" value="57" />
     <option name="width" value="1280" />
@@ -186,7 +186,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553636299353" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553676993665" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -200,8 +200,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in com.codeclan.example.LibraryHomework.test">
+  <component name="RunManager" selected="JUnit.All in com.codeclan.example.LibraryHomework.test (2)">
     <configuration name="All in com.codeclan.example.LibraryHomework.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.codeclan.example.LibraryHomework.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in com.codeclan.example.LibraryHomework.test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.codeclan.example.LibraryHomework.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -219,6 +227,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in com.codeclan.example.LibraryHomework.test (2)" />
         <item itemvalue="JUnit.All in com.codeclan.example.LibraryHomework.test" />
         <item itemvalue="JUnit.All in com.codeclan.example.LibraryHomework.test (1)" />
       </list>

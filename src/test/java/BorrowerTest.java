@@ -30,4 +30,10 @@ public class BorrowerTest {
         assertEquals(2, this.library.collectionSize());
 
     }
+    @Test
+    public void canRemoveBook() {
+        this.borrower.addBook(book);
+        this.borrower.removeBook();
+        assertEquals(0, this.borrower.privateCollectionSize());
+    }
 }

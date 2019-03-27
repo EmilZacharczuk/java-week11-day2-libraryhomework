@@ -19,4 +19,7 @@ public class Borrower {
         Book newBook = library.removeBook();
         addBook(newBook);
     }
+    public Book removeBook() {
+        return this.privateCollection.remove(0);
+    }
 }
